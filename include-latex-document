@@ -1,0 +1,6 @@
+#!/bin/sh
+# Helper for Nancy to work like \include on the given LaTeX document
+# Reuben Thomas   24th November 2019
+printf "\\clearpage"
+extract-latex-document "$1"
+printf "\\clearpage"

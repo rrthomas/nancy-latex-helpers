@@ -1,0 +1,4 @@
+#!/bin/sh
+# Extract the body of a LaTeX document
+# Reuben Thomas   24th November 2019
+sgrep '"\\begin{document}" _quote_ "\\end{document}"' "$1"
